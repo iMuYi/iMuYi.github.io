@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://imuyi.github.io/2016/06/27/uwsgi-nginx-django/</loc>
+    <lastmod>2016-06-27T02:29:50.937Z</lastmod>
+    <data>
+        <display>
+        <title>uwsgi+nginx+django</title>
+        <pubTime>2016-06-27T02:27:49.000Z</pubTime>
+        
+        <tag>Django</tag>
+         
+         
+           
+             
+              <breadCrumb title="Django" url="http://imuyi.github.io/categories/Django/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://imuyi.github.io/2016/06/27/django-models/</loc>
     <lastmod>2016-06-27T02:26:07.497Z</lastmod>
     <data>
