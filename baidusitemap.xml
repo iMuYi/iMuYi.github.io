@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://imuyi.github.io/2016/06/27/Scrapy%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2016-06-27T02:34:29.882Z</lastmod>
+    <data>
+        <display>
+        <title>Scrapy学习</title>
+        <pubTime>2016-06-27T02:31:42.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+         
+           
+             
+              <breadCrumb title="Python" url="http://imuyi.github.io/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://imuyi.github.io/2016/06/27/uwsgi-nginx-django/</loc>
     <lastmod>2016-06-27T02:29:50.937Z</lastmod>
     <data>

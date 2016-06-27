@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://imuyi.github.io/2016/06/27/Scrapy%E5%AD%A6%E4%B9%A0/</loc>
+    
+    <lastmod>2016-06-27T02:34:29.882Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://imuyi.github.io/2016/06/27/uwsgi-nginx-django/</loc>
     
     <lastmod>2016-06-27T02:29:50.937Z</lastmod>
