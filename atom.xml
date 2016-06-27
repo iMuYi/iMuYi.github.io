@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://imuyi.github.io/"/>
-  <updated>2016-06-27T02:24:22.656Z</updated>
+  <updated>2016-06-27T02:26:07.497Z</updated>
   <id>http://imuyi.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://imuyi.github.io/2016/06/27/django-models/"/>
     <id>http://imuyi.github.io/2016/06/27/django-models/</id>
     <published>2016-06-27T02:20:12.000Z</published>
-    <updated>2016-06-27T02:24:22.656Z</updated>
+    <updated>2016-06-27T02:26:07.497Z</updated>
     
     <content type="html">&lt;p&gt;最近重新读了一下django的开发文档，发现了一些以前不太注意的细节，果真每次读文档都能有收获！&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;django-db-models-Model&quot;&gt;&lt;a href=&quot;#django-db-models-Model&quot; class=&quot;headerlink&quot; title=&quot;django.db.models.Model&quot;&gt;&lt;/a&gt;django.db.models.Model&lt;/h3&gt;&lt;ul&gt;
@@ -71,6 +71,10 @@
     
     </summary>
     
+      <category term="Django" scheme="http://imuyi.github.io/categories/Django/"/>
+    
+    
+      <category term="Django" scheme="http://imuyi.github.io/tags/Django/"/>
     
   </entry>
   
