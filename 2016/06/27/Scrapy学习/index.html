@@ -69,7 +69,7 @@
 <meta property="og:url" content="http://imuyi.github.io/2016/06/27/Scrapy学习/index.html">
 <meta property="og:site_name" content="MuYi`s Blog">
 <meta property="og:description" content="Talk is cheap, show you my code!">
-<meta property="og:updated_time" content="2016-06-27T02:38:12.553Z">
+<meta property="og:updated_time" content="2016-06-27T02:41:50.074Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Scrapy学习">
 <meta name="twitter:description" content="Talk is cheap, show you my code!">
@@ -322,8 +322,8 @@
 <hr>
 <h3 id="items-py"><a href="#items-py" class="headerlink" title="items.py"></a>items.py</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> scrapy <span class="keyword">import</span> Item, Field</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">YourspiderItem</span><span class="params">(Item)</span>:</span></span><br><span class="line">    url = Field()</span><br><span class="line">    content = Field()</span><br><span class="line">    title = Field()</span><br><span class="line">    image = Field()</span><br></pre></td></tr></table></figure>
 <hr>
-<h3 id="执行顺序"><a href="#执行顺序" class="headerlink" title="执行顺序"></a>执行顺序</h3><p><code>open_spider</code> &gt; <code>start_requests</code> &gt; <code>parse</code> &gt;<code>process_item</code> &gt; <code>parse</code> &gt;<code>start_requsets</code> &gt; <code>close_spider</code><br>开启爬虫之后，爬虫去<code>start_url</code>中获取爬取的<strong>urls</strong>，这里的<code>start_url</code>通过<code>start_requests</code>函数构造。</p>
-<h2 id="在构造出url之后，被yield到parse进行解析。parse中实例化Item，并将相应的数据解析，放进实例化的item中，，"><a href="#在构造出url之后，被yield到parse进行解析。parse中实例化Item，并将相应的数据解析，放进实例化的item中，，" class="headerlink" title="在构造出url之后，被yield到parse进行解析。parse中实例化Item，并将相应的数据解析，放进实例化的item中，，"></a>在构造出<strong>url</strong>之后，被yield到parse进行解析。parse中实例化Item，并将相应的数据解析，放进实例化的item中，，</h2>
+<h3 id="执行顺序"><a href="#执行顺序" class="headerlink" title="执行顺序"></a>执行顺序</h3><p><code>open_spider</code> &gt; <code>start_requests</code> &gt; <code>parse</code> &gt;<code>process_item</code> &gt; <code>parse</code> &gt;<code>start_requsets</code> &gt; <code>close_spider</code><br>开启爬虫之后，爬虫去<code>start_url</code>中获取爬取的<strong>urls</strong>，这里的<code>start_url</code>通过<code>start_requests</code>函数构造。<br>在构造出<strong>url</strong>之后，被yield到parse进行解析。parse中实例化Item，并将相应的数据解析，放进实例化的item中。</p>
+
       
     </div>
     
@@ -527,7 +527,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#"><span class="nav-number">1.</span> <span class="nav-text"></span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#spider-py"><span class="nav-number">1.1.</span> <span class="nav-text">spider.py</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#pipelines-py"><span class="nav-number">1.2.</span> <span class="nav-text">pipelines.py</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#items-py"><span class="nav-number">1.3.</span> <span class="nav-text">items.py</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#执行顺序"><span class="nav-number">1.4.</span> <span class="nav-text">执行顺序</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#在构造出url之后，被yield到parse进行解析。parse中实例化Item，并将相应的数据解析，放进实例化的item中，，"><span class="nav-number">2.</span> <span class="nav-text">在构造出url之后，被yield到parse进行解析。parse中实例化Item，并将相应的数据解析，放进实例化的item中，，</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#"><span class="nav-number">1.</span> <span class="nav-text"></span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#spider-py"><span class="nav-number">1.1.</span> <span class="nav-text">spider.py</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#pipelines-py"><span class="nav-number">1.2.</span> <span class="nav-text">pipelines.py</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#items-py"><span class="nav-number">1.3.</span> <span class="nav-text">items.py</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#执行顺序"><span class="nav-number">1.4.</span> <span class="nav-text">执行顺序</span></a></li></ol></li></ol></div>
             
           </div>
         </section>
