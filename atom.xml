@@ -1428,6 +1428,31 @@ console.log(serializeForm(form));
   </entry>
   
   <entry>
+    <title>vpn看墙外世界</title>
+    <link href="http://imuyi.github.io/2016/04/06/heroku+shadowsocks/"/>
+    <id>http://imuyi.github.io/2016/04/06/heroku+shadowsocks/</id>
+    <published>2016-04-06T14:49:45.000Z</published>
+    <updated>2017-06-19T15:17:28.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="VPN"><a href="#VPN" class="headerlink" title="VPN"></a>VPN</h2><p>digitalocean上申请一个最便宜的ubuntu16.04，然后执行下列程序：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">wget https://git.io/vpnsetup -O vpnsetup.sh &amp;&amp; sudo \</div><div class="line">VPN_IPSEC_PSK=&apos;your_ipsec_pre_shared_key&apos; \</div><div class="line">VPN_USER=&apos;your_vpn_username&apos; \</div><div class="line">VPN_PASSWORD=&apos;your_vpn_password&apos; sh vpnsetup.sh</div></pre></td></tr></table></figure></p>
+<p>使用的是<code>L2TP/IPSec</code>协议，具体想了解的，可以去<a href="https://github.com/hwdsl2/setup-ipsec-vpn" target="_blank" rel="external">这里</a>看一下.<br>之后就可以链接上VPN了，如果有不会链接的，可以点<a href="https://github.com/hwdsl2/setup-ipsec-vpn/blob/master/docs/clients.md" target="_blank" rel="external">这里</a>去看一下。</p>
+<h2 id="SOCK5"><a href="#SOCK5" class="headerlink" title="SOCK5"></a>SOCK5</h2><p>如果你只是想要浏览一下网页，不想要一个vpn，也不想花钱，就想看个youtube，上个网页啥的，那么heroku+shadowscoks可以满足你的需求。<a href="https://github.com/521xueweihan/shadowsocks-heroku" target="_blank" rel="external">这里</a>有一份详细的教程，4步之后，看墙外世界。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;VPN&quot;&gt;&lt;a href=&quot;#VPN&quot; class=&quot;headerlink&quot; title=&quot;VPN&quot;&gt;&lt;/a&gt;VPN&lt;/h2&gt;&lt;p&gt;digitalocean上申请一个最便宜的ubuntu16.04，然后执行下列程序：&lt;br&gt;&lt;figure class=&quot;highl
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://imuyi.github.io/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://imuyi.github.io/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
     <title>将Django搭建在Apache上</title>
     <link href="http://imuyi.github.io/2016/04/06/%E5%B0%86Django%E6%90%AD%E5%BB%BA%E5%9C%A8Apache%E4%B8%8A/"/>
     <id>http://imuyi.github.io/2016/04/06/将Django搭建在Apache上/</id>
